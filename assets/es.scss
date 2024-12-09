@@ -23,3 +23,66 @@
     }
   }
 }
+
+.banner {
+  &.banner--full_height {
+    min-height: 100vh;
+  }
+
+  .banner__content {
+    .subtitle {
+      font-family: "SF Pro Display", sans-serif;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 2.4px;
+
+      @media (max-width: 768px) {
+        font-size: 12px;
+      }
+    }
+
+    .banner__heading {
+      font-family: "Ivy Journal", sans-serif;
+      font-size: 46px;
+      font-weight: 400;
+      line-height: 130%;
+
+      @media (max-width: 768px) {
+        font-size: 30px;
+        line-height: 120%;
+      }
+    }
+  }
+
+  .banner__clicker {
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+
+    .banner__clicker-wrapper {
+      margin: auto;
+      padding: 0 5rem;
+      max-width: 1600px;
+
+      .banner__clicker-link {
+        width: 100%;
+        padding: 2rem;
+        color: #fff;
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-decoration: unset;
+        text-transform: uppercase;
+        border-top: 1px solid #fff;
+        font-family: "SF Pro Display", sans-serif;
+      }
+    }
+  }
+}

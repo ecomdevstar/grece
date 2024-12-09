@@ -12,25 +12,35 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "text_iKe33f": {
+          "type": "text",
+          "settings": {
+            "text": "PHOTOSHOOT STUDIO",
+            "text_style": "subtitle"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "An award-winning, mediterranean-inspired photoshoot location nestled in the heart of Brisbane",
             "heading_size": "h0"
           }
         }
       },
       "block_order": [
+        "text_iKe33f",
         "heading"
       ],
       "settings": {
         "image": "shopify://shop_images/Full_Res-28_1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "full_height",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-3",
+        "to_section": "shopify-section-sections--18517386199281__footer",
+        "to_section_text": "Scroll To Explore",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,

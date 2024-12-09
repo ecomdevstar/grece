@@ -164,6 +164,13 @@
       {%- endfor -%}
     </div>
   </div>
+  {%- if section.settings.to_section != blank -%}
+    <div class="banner__clicker">
+      <div class="banner__clicker-wrapper">
+        <a href="#{{ section.settings.to_section }}" class="banner__clicker-link">{{ section.settings.to_section_text }}</a>
+      </div>
+    </div>
+  {%- endif -%}
 </div>
 
 {% schema %}
@@ -214,6 +221,10 @@
         {
           "value": "large",
           "label": "t:sections.image-banner.settings.image_height.options__4.label"
+        },
+        {
+          "value": "full_height",
+          "label": "Full Height"
         }
       ],
       "default": "medium",
@@ -295,6 +306,21 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "To scroll section"
+    },
+    {
+      "type": "text",
+      "id": "to_section",
+      "label": "Section ID"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "to_section_text",
+      "label": "Link Text",
+      "default": "Scroll To Explore"
     },
     {
       "type": "header",
