@@ -46,9 +46,41 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
+    },
+    "rich_text_mh8z4e": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_e69h39": {
+          "type": "heading",
+          "settings": {
+            "heading": "Perched upon a hill, Grèce captures views of Brisbane city with beautiful curves and thoughtful finishes. A true oasis-like location that pulls inspiration from Greek heritage.",
+            "heading_size": "h1"
+          }
+        },
+        "text_FjaCiF": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"#\" target=\"_blank\" title=\"#\">ABOUT GRÈCE</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e69h39",
+        "text_FjaCiF"
+      ],
+      "settings": {
+        "max_width": 1000,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
-    "image_banner"
+    "image_banner",
+    "rich_text_mh8z4e"
   ]
 }
