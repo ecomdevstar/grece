@@ -81,8 +81,13 @@
 {%- style -%}
   .header {
     padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 3rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 3rem;
-    display: flex;
-    justify-content: space-between;
+  }
+
+  @media (min-width: 769px) {
+    .header {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   .section-header {

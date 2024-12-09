@@ -7,134 +7,134 @@
 
   @font-face {
     font-family: "SF Pro Display";
-    src:  url("https://cdn.shopify.com/s/files/1/0721/3472/1777/files/SFPRODISPLAYREGULAR.woff?v=1733483075") format('woff'),
-          url("https://cdn.shopify.com/s/files/1/0721/3472/1777/files/SFPRODISPLAYREGULAR.woff2?v=1733483075") format("woff2");
+    src:  url("{{ 'SFPRODISPLAYREGULAR.woff' | file_url }}") format('woff'),
+          url("{{ 'SFPRODISPLAYREGULAR.woff2' | file_url }}") format("woff2");
     font-weight: 400;
   }
 
   @font-face {
     font-family: "SF Pro Display";
-    src:  url("https://cdn.shopify.com/s/files/1/0721/3472/1777/files/SFPRODISPLAYMEDIUM.woff?v=1733483076") format('woff'),
-          url("https://cdn.shopify.com/s/files/1/0721/3472/1777/files/SFPRODISPLAYMEDIUM.woff2?v=1733483075") format("woff2");
+    src:  url("{{ 'SFPRODISPLAYMEDIUM.woff' | file_url }}") format('woff'),
+          url("{{ 'SFPRODISPLAYMEDIUM.woff2' | file_url }}") format("woff2");
     font-weight: 500;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBoldItalic.eot');
+    src: url('{{ 'IvyJournal-SemiBoldItalic.eot' | file_url }}');
     src: local('Ivy Journal SemiBold Italic'), local('IvyJournal-SemiBoldItalic'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBoldItalic.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBoldItalic.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBoldItalic.ttf') format('truetype');
+        url('{{ 'IvyJournal-SemiBoldItalic.eot' | file_url }}') format('embedded-opentype'),
+        url('{{ 'IvyJournal-SemiBoldItalic.woff2' | file_url }}') format('woff2'),
+        url('{{ 'IvyJournal-SemiBoldItalic.woff' | file_url }}') format('woff'),
+        url('{{ 'IvyJournal-SemiBoldItalic.ttf' | file_url }}') format('truetype');
     font-weight: 600;
     font-style: italic;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Regular.eot');
+    src: url('{{ 'IvyJournal-Regular.eot' | file_url }}');
     src: local('Ivy Journal Regular'), local('IvyJournal-Regular'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Regular.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Regular.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Regular.ttf') format('truetype');
+        url('{{ 'IvyJournal-Regular.eot' | file_url }}') format('embedded-opentype'),
+        url('{{ 'IvyJournal-Regular.woff2' | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-Regular.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-Regular.ttf" | file_url }}') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-LightItalic.eot');
+    src: url('{{ "IvyJournal-LightItalic.eot" | file_url }}');
     src: local('Ivy Journal Light Italic'), local('IvyJournal-LightItalic'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-LightItalic.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-LightItalic.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-LightItalic.ttf') format('truetype');
+        url('{{ "IvyJournal-LightItalic.eot" | file_url }}') format('embedded-opentype'),
+        url('{{ "IvyJournal-LightItalic.woff2" | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-LightItalic.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-LightItalic.ttf" | file_url }}') format('truetype');
     font-weight: 300;
     font-style: italic;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Bold.eot');
+    src: url('{{ "IvyJournal-Bold.eot" | file_url }}');
     src: local('Ivy Journal Bold'), local('IvyJournal-Bold'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Bold.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Bold.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Bold.ttf') format('truetype');
+        url('{{ "IvyJournal-Bold.eot" | file_url }}') format('embedded-opentype'),
+        url('{{ "IvyJournal-Bold.woff2" | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-Bold.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-Bold.ttf" | file_url }}') format('truetype');
     font-weight: bold;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-ThinItalic.eot');
+    src: url('{{ "IvyJournal-ThinItalic.eot" | file_url }}');
     src: local('Ivy Journal Thin Italic'), local('IvyJournal-ThinItalic'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-ThinItalic.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-ThinItalic.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-ThinItalic.ttf') format('truetype');
+        url('{{ "IvyJournal-ThinItalic.eot" | file_url }}') format('embedded-opentype'),
+        url('{{ "IvyJournal-ThinItalic.woff2" | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-ThinItalic.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-ThinItalic.ttf" | file_url }}') format('truetype');
     font-weight: 100;
     font-style: italic;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-BoldItalic.eot');
+    src: url('{{ "IvyJournal-BoldItalic.eot" | file_url }}');
     src: local('Ivy Journal Bold Italic'), local('IvyJournal-BoldItalic'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-BoldItalic.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-BoldItalic.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-BoldItalic.ttf') format('truetype');
+        url('{{ "IvyJournal-BoldItalic.eot" | file_url }}') format('embedded-opentype'),
+        url('{{ "IvyJournal-BoldItalic.woff2" | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-BoldItalic.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-BoldItalic.ttf" | file_url }}') format('truetype');
     font-weight: bold;
     font-style: italic;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Italic.eot');
+    src: url('{{ "IvyJournal-Italic.eot" | file_url }}');
     src: local('Ivy Journal Italic'), local('IvyJournal-Italic'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Italic.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Italic.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Italic.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Italic.ttf') format('truetype');
+        url('{{ "IvyJournal-Italic.eot" | file_url }}') format('embedded-opentype'),
+        url('{{ "IvyJournal-Italic.woff2" | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-Italic.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-Italic.ttf" | file_url }}') format('truetype');
     font-weight: normal;
     font-style: italic;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Light.eot');
+    src: url('{{ "IvyJournal-Light.eot" | file_url }}');
     src: local('Ivy Journal Light'), local('IvyJournal-Light'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Light.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Light.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Light.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Light.ttf') format('truetype');
+        url('{{ "IvyJournal-Light.eot" | file_url }}') format('embedded-opentype'),
+        url('{{ "IvyJournal-Light.woff2" | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-Light.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-Light.ttf" | file_url }}') format('truetype');
     font-weight: 300;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Thin.eot');
+    src: url('{{ "IvyJournal-Thin.eot" | file_url }}');
     src: local('Ivy Journal Thin'), local('IvyJournal-Thin'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Thin.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Thin.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Thin.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-Thin.ttf') format('truetype');
+        url('{{ "IvyJournal-Thin.eot" | file_url }}') format('embedded-opentype'),
+        url('{{ "IvyJournal-Thin.woff2" | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-Thin.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-Thin.ttf" | file_url }}') format('truetype');
     font-weight: 100;
     font-style: normal;
   }
 
   @font-face {
     font-family: 'Ivy Journal';
-    src: url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBold.eot');
+    src: url('{{ "IvyJournal-SemiBold.eot" | file_url }}');
     src: local('Ivy Journal SemiBold'), local('IvyJournal-SemiBold'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBold.woff2') format('woff2'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBold.woff') format('woff'),
-        url('https://cdn.shopify.com/s/files/1/0721/3472/1777/files/IvyJournal-SemiBold.ttf') format('truetype');
+        url('{{ "IvyJournal-SemiBold.eot" | file_url }}') format('embedded-opentype'),
+        url('{{ "IvyJournal-SemiBold.woff2" | file_url }}') format('woff2'),
+        url('{{ "IvyJournal-SemiBold.woff" | file_url }}') format('woff'),
+        url('{{ "IvyJournal-SemiBold.ttf" | file_url }}') format('truetype');
     font-weight: 600;
     font-style: normal;
   }
