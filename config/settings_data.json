@@ -11,7 +11,7 @@
   "current": {
     "logo": "shopify://shop_images/GRECE.svg",
     "logo_width": 90,
-    "favicon": "shopify://shop_images/GRECE.svg",
+    "favicon": "shopify://shop_images/IMG_7690-100x100.jpg",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
@@ -168,7 +168,7 @@
       },
       "scheme-3": {
         "settings": {
-          "background": "#242833",
+          "background": "#ffffff",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
@@ -197,6 +197,17 @@
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
+        }
+      },
+      "scheme-bf812f2f-418b-4983-886e-44dd55e204c4": {
+        "settings": {
+          "background": "#f9f8f4",
+          "background_gradient": "",
+          "text": "#393939",
+          "button": "#393939",
+          "button_label": "#f9f8f4",
+          "secondary_button_label": "#393939",
+          "shadow": "#393939"
         }
       }
     }
