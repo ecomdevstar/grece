@@ -46,8 +46,9 @@
       {% endif %}
     >
       {%- unless section.settings.heading == blank -%}
-        <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-          <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+        <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} center">
+          <h5 class="font-h5 inline-richtext">{{ section.settings.sub_heading }}</h5>
+          <h2 class="title font-h1 inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
         </div>
       {%- endunless -%}
     </div>
@@ -129,6 +130,12 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "sub_heading",
+      "default": "LOCATION",
+      "label": "Sub Heading"
+    },
     {
       "type": "inline_richtext",
       "id": "heading",
