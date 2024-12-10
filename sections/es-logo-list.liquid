@@ -1,0 +1,118 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --padding-top: {{ section.settings.padding_top }}px;
+    --padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  @media (max-width: 768px) {
+    #shopify-section-{{ section.id }} {
+      --padding-top: {{ section.settings.padding_top | times: 0.5 }}px;
+      --padding-bottom: {{ section.settings.padding_bottom | times: 0.5 }}px;
+    }
+
+    #shopify-section-{{ section.id }} .swiper-button-next,
+    #shopify-section-{{ section.id }} .swiper-button-prev {
+      display: block;
+      --swiper-navigation-size: 20px;
+      --swiper-theme-color: #000;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width">
+  <h2 class="logo-list--heading">{{ section.settings.heading }}</h2>
+  <div class="logo-list--logos swiper">
+    <div class="swiper-wrapper">
+      {%- for block in section.blocks -%}
+        <div class="logo-list--logo swiper-slide">
+          <div class="image">
+            <img 
+              src="{{ block.settings.image | img_url: 'master' }}" 
+              width="{{ block.settings.image.width | times: 0.5 }}"
+              height="{{ block.settings.image.height | times: 0.5 }}"
+              alt="{{ block.settings.image.alt | default: block.settings.image.title }}"
+            >
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+
+    <div class="medium-hide large-up-hide">
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    (() => {
+      if (window.innerWidth < 768) {
+        const sw = new Swiper("#shopify-section-{{ section.id }} .swiper", {
+          slidesPerView: 1,
+          spaceBetween: 36,
+          loop: true,
+          centeredSlides: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      }
+    })();
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Logo List",
+  "tag": "section",
+  "class": "section es-logo-list",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading",
+      "default": "As Seen In"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "@ Logo List"
+    }
+  ]
+}
+{% endschema %}

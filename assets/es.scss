@@ -107,17 +107,62 @@
       }
 
       .rich-text__text {
+        margin-top: 32px;
+
+        @media screen and (max-width: 768px) {
+          margin-top: 16px;
+        }
+
         a {
           color: #000;
-          font-family: "SF Pro Display", sans-serif;
           font-size: 16px;
           font-weight: 500;
           line-height: 19px;
           letter-spacing: 0.1em;
+          font-family: "SF Pro Display", sans-serif;
 
           @media screen and (max-width: 768px) {
             font-size: 14px;
             line-height: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.es-logo-list {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+
+  .page-width {
+    .logo-list--heading {
+      font-size: 16px;
+      font-weight: 500;
+      color: #9E9E9E;
+      text-align: center;
+      font-style: normal;
+      line-height: normal;
+      margin-bottom: 36px;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+      font-family: "SF Pro Display", sans-serif;
+
+      @media screen and (max-width: 768px) {
+        margin-bottom: 18px;
+      }
+    }
+
+    .logo-list--logos {
+      .swiper-wrapper {
+        align-items: center;
+
+        @media screen and (min-width: 769px) {
+          justify-content: center;
+          gap: 72px;
+
+          .swiper-slide {
+            width: auto !important;
           }
         }
       }
