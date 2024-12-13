@@ -153,6 +153,33 @@
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
                     </div>
+                  {%- when 'logo_with_text' -%}
+                    <div class="footer-block__details-content footer-lwt {{ block.settings.content_align }}">
+                      {%- if block.settings.image != blank -%}
+                        <div class="footer-block__details-content-logo{% unless block.settings.image.src contains 'svg' %} without-svg{% endunless %}">
+                          <img
+                            src="{{ block.settings.image | img_url: 'master' }}"
+                            width="{{ block.settings.image.width }}"
+                            height="{{ block.settings.image.height }}"
+                            alt="{{ block.settings.image.alt }}"
+                          >
+                        </div>
+                      {%- endif -%}
+
+                      {%- if block.settings.subtitle != blank -%}
+                        <h4 class="footer-lwt--subtitle">{{ block.settings.subtitle }}</h4>
+                      {%- endif -%}
+
+                      {%- if block.settings.text != blank -%}
+                        <div class="footer-lwt--text">{{ block.settings.text }}</div>
+                      {%- endif -%}
+
+                      {%- if block.settings.icon_text != blank -%}
+                        <div class="footer-lwt--icon-text">
+                          <img src="{{ block.settings.icon | img_url: 'master' }}"> {{ block.settings.icon_text }}
+                        </div>
+                      {%- endif -%}
+                    </div>
                 {%- endcase -%}
               </div>
             {%- endfor -%}
@@ -249,7 +276,7 @@
       </div>
     {%- endunless -%}
   {%- endif -%}
-
+{% comment %} 
   <div
     class="footer__content-bottom{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -318,7 +345,7 @@
         {%- endif -%}
       </div>
     </div>
-  </div>
+  </div> {% endcomment %}
 </footer>
 
 {% schema %}
@@ -424,6 +451,57 @@
             }
           ],
           "default": "center"
+        }
+      ]
+    },
+    {
+      "type": "logo_with_text",
+      "name": "Logo with Text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "subtitle",
+          "label": "Sub Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "select",
+          "id": "content_align",
+          "label": "Content Align",
+          "options": [
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "left",
+              "label": "Left"
+            }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "header",
+          "content": "Icon with Text"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "icon_text",
+          "label": "Text"
         }
       ]
     }

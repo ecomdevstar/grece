@@ -296,3 +296,73 @@
     }
   }
 }
+
+.footer {
+  .footer__blocks-wrapper {
+    align-items: center;
+    
+    .footer-lwt {
+      & > * + * {
+        margin-top: 16px;
+      }
+
+      img {
+        margin: 0;
+      }
+
+      .footer-lwt--text {
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 230px;
+        color: #272727;
+        font-style: normal;
+        line-height: normal;
+        font-family: "Ivy Journal", sans-serif;
+      }
+
+      .footer-lwt--icon-text {
+        gap: 6px;
+        display: flex;
+        font-size: 16px;
+        font-weight: 400;
+        color: #393939;
+        font-style: normal;
+        align-items: center;
+        line-height: normal;
+        text-underline-offset: auto;
+        text-decoration-style: solid;
+        text-decoration-thickness: auto;
+        text-decoration-line: underline;
+        font-family: "SF Pro Display", sans-serif;
+
+        a {
+          color: inherit;
+        }
+      }
+
+      .without-svg {
+        img {
+          width: 131px;
+          height: auto;
+        }
+      }
+
+      &.center {
+        max-width: max-content;
+        margin-left: auto;
+
+        .footer-lwt--subtitle {
+          color: #000;
+          text-align: center;
+          font-family: "Inter", sans-serif;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          max-width: 115px;
+          margin: 12px auto 0;
+        }
+      }
+    }
+  }
+}
