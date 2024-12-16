@@ -20,17 +20,25 @@
     "image_with_text_kwG7zE": {
       "type": "image-with-text",
       "blocks": {
+        "caption_7iwVRh": {
+          "type": "caption",
+          "settings": {
+            "caption": "BEHIND THE DESIGN",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_ygK73D": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "A tribute to rich Greek heritage and a deep-seated love for the Mediterranean way of life.",
             "heading_size": "h1"
           }
         },
         "text_jcYpRP": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Inspired by the Mediterranean charm that Thessy and Georgio hold close to their hearts, Grece was brought to life over three years of careful planning and design. Every inch of this home was deliberately crafted to reflect the beauty, functionality, and timeless elegance of Mediterranean living.</p>",
             "text_style": "body"
           }
         },
@@ -44,6 +52,7 @@
         }
       },
       "block_order": [
+        "caption_7iwVRh",
         "heading_ygK73D",
         "text_jcYpRP",
         "button_e9q4J7"
