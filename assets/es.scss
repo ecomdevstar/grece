@@ -142,9 +142,17 @@
 
       .rich-text__text {
         margin-top: 32px;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        line-height: normal;
+        color: rgba(57, 57, 57, 0.80);
+        font-family: "SF Pro Display", sans-serif;
 
         @media screen and (max-width: 768px) {
           margin-top: 16px;
+          font-size: 14px;
         }
 
         a {
