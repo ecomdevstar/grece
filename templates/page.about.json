@@ -323,7 +323,7 @@
         "heading_pPVCYH": {
           "type": "heading",
           "settings": {
-            "heading": "Textured Surfaces",
+            "heading": "On-site Parking",
             "heading_size": "h2",
             "margin_left": 0
           }
@@ -331,7 +331,7 @@
         "text_gaeq97": {
           "type": "text",
           "settings": {
-            "text": "<p>From rustic Mediterranean stone to sleek modern stucco, the textured finishes throughout Grèce add dimension and a rich, tactile quality to your visuals, elevating any aesthetic.</p>",
+            "text": "<p>With a spacious two-car garage, Grèce makes setup and pack-down seamless, allowing your crew to focus on the creative process.</p>",
             "text_style": "body"
           }
         }
