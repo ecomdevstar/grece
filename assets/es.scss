@@ -425,10 +425,15 @@
       margin-bottom: 30px;
       letter-spacing: 1.6px;
       font-family: "SF Pro Display", sans-serif;
+
+      @media screen and (max-width: 768px) {
+        font-size: 12px;
+        letter-spacing: 1.2px;
+      }
     }
 
     .image-with-text__heading {
-      font-size: 42px;
+      font-size: 28px;
       font-weight: 400;
       color: #393939;
       font-style: normal;
@@ -437,6 +442,7 @@
 
       @media screen and (min-width: 769px) {
         margin-left: var(--margin-left);
+        font-size: 42px;
       }
     }
 
@@ -447,6 +453,10 @@
       line-height: normal;
       color: rgba(57, 57, 57, 0.80);
       font-family: "SF Pro Display", sans-serif;
+
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
+      }
     }
 
     .image-with-text__button-group {
@@ -464,6 +474,10 @@
         &::after,
         &::before {
           border-radius: 30px;
+        }
+
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
         }
       }
     }
