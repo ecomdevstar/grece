@@ -32,7 +32,8 @@
           "type": "heading",
           "settings": {
             "heading": "A tribute to rich Greek heritage and a deep-seated love for the Mediterranean way of life.",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "margin_left": -150
           }
         },
         "text_jcYpRP": {
