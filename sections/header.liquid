@@ -216,6 +216,17 @@
                   preload: true
                 }}
               </div>
+              {%- if section.settings.transparent_header != blank -%}
+                {{ section.settings.transparent_header | image_url: width: 600 | image_tag:
+                  class: 'header__heading-logo transparent-header--logo',
+                  widths: widths,
+                  height: logo_height,
+                  width: settings.logo_width,
+                  alt: logo_alt,
+                  sizes: sizes,
+                  preload: true
+                }}
+              {%- endif -%}
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
             {%- endif -%}
@@ -590,6 +601,11 @@
       "id": "enable_transparent_header",
       "default": false,
       "label": "Enable Transparent Header"
+    },
+    {
+      "type": "image_picker",
+      "id": "transparent_header",
+      "label": "Logo Image"
     },
     {
       "type": "header",
