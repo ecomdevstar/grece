@@ -53,13 +53,21 @@
             "button_link_2": "#",
             "button_style_secondary_2": true
           }
+        },
+        "text_EQUiFT": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><a href=\"#\" target=\"_blank\" title=\"#\">Features</a></li><li><a href=\"#\" target=\"_blank\" title=\"#\">Designer details</a></li><li><a href=\"#\" target=\"_blank\" title=\"#\">Behind the build</a></li><li><a href=\"#\" target=\"_blank\" title=\"#\">Meet the owners</a></li></ul>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "caption_7iwVRh",
         "heading_ygK73D",
         "text_jcYpRP",
-        "button_e9q4J7"
+        "button_e9q4J7",
+        "text_EQUiFT"
       ],
       "settings": {
         "image": "shopify://shop_images/Full_Res-27_1.png",
