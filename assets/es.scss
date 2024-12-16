@@ -498,6 +498,18 @@
         font-size: 14px;
       }
 
+      a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        font-family: "SF Pro Display", sans-serif;
+      }
+
       ul {
         padding: 0;
         list-style: unset;
