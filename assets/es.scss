@@ -436,5 +436,19 @@
       margin-left: var(--margin-left);
       font-family: "Ivy Journal", sans-serif;
     }
+
+    .image-with-text__text {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: normal;
+      color: rgba(57, 57, 57, 0.80);
+      font-family: "SF Pro Display", sans-serif;
+    }
+
+    .image-with-text__button-group {
+      gap: 12px;
+      display: flex;
+    }
   }
 }
