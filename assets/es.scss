@@ -465,6 +465,40 @@
       @media screen and (max-width: 768px) {
         font-size: 14px;
       }
+
+      ul {
+        padding: 0;
+        list-style: unset;
+
+        li {
+          margin-top: 44px;
+
+          @media screen and (max-width: 768px) {
+            margin-top: 22px;
+            text-align: center;
+          }
+          a {
+            font-size: 26px;
+            font-weight: 400;
+            color: #393939;
+            font-style: normal;
+            line-height: normal;
+            font-family: "Ivy Journal", sans-serif;
+
+            @media screen and (max-width: 768px) {
+              font-size: 20px;
+            }
+          }
+
+          & + li {
+            margin-top: 22px;
+            
+            @media screen and (max-width: 768px) {
+              margin-top: 12px;
+            }
+          }
+        }
+      }
     }
 
     .image-with-text__button-group {
