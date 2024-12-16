@@ -360,6 +360,12 @@
     "image_with_text_TNRiix": {
       "type": "image-with-text",
       "blocks": {
+        "image_jaQLF3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ESAT_Design_Brandmark_ONYX_1.png"
+          }
+        },
         "text_8GMgYa": {
           "type": "text",
           "settings": {
@@ -376,6 +382,7 @@
         }
       },
       "block_order": [
+        "image_jaQLF3",
         "text_8GMgYa",
         "text_rzhBab"
       ],
@@ -399,6 +406,12 @@
     "image_with_text_mEcJTj": {
       "type": "image-with-text",
       "blocks": {
+        "image_rXBYmV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/66541f2722eae2de18dc8c2b_Group_23_1.png"
+          }
+        },
         "text_pEd7XD": {
           "type": "text",
           "settings": {
@@ -415,6 +428,7 @@
         }
       },
       "block_order": [
+        "image_rXBYmV",
         "text_pEd7XD",
         "text_VJWXQG"
       ],
