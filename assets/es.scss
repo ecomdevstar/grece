@@ -416,6 +416,14 @@
           }
         }
       }
+
+      @media screen and (max-width: 768px) {
+        .footer-block:last-child {
+          .footer-block__details-content {
+            margin-bottom: 0;
+          }
+        } 
+      }
     }
   }
 }
