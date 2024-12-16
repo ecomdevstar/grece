@@ -76,10 +76,51 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "es_logo_list_FDA7HE": {
+      "type": "es-logo-list",
+      "blocks": {
+        "image_VMhNir": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TLP_1.png"
+          }
+        },
+        "image_gwaeNC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/realestate-com-au-logo-vector-2023_1.png"
+          }
+        },
+        "image_KGcrqi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media-courier-mail-logo_1.png"
+          }
+        },
+        "image_w7khUj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/the-australian-newspaper-logo_1_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_VMhNir",
+        "image_gwaeNC",
+        "image_KGcrqi",
+        "image_w7khUj"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "heading": "As Seen In"
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_kwG7zE"
+    "image_with_text_kwG7zE",
+    "es_logo_list_FDA7HE"
   ]
 }
