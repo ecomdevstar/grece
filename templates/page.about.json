@@ -72,7 +72,7 @@
         "section_color_scheme": "scheme-fbe71e4f-ef37-4fc2-9b35-609dd004b868",
         "color_scheme": "scheme-fbe71e4f-ef37-4fc2-9b35-609dd004b868",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100
       }
