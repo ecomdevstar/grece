@@ -216,7 +216,7 @@
                   preload: true
                 }}
               </div>
-              {%- if section.settings.transparent_header != blank -%}
+              {%- if section.settings.transparent_header != blank and section.settings.enable_transparent_header -%}
                 {{ section.settings.transparent_header | image_url: width: 600 | image_tag:
                   class: 'header__heading-logo transparent-header--logo',
                   widths: widths,
