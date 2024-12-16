@@ -448,6 +448,14 @@
       line-height: normal;
       font-family: "Ivy Journal", sans-serif;
 
+      &.h2 {
+        font-size: 26px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 20px;
+        }
+      }
+
       @media screen and (min-width: 769px) {
         margin-left: var(--margin-left);
         font-size: 42px;
@@ -498,6 +506,14 @@
             }
           }
         }
+      }
+    }
+
+    .h2 + .image-with-text__text {
+      font-size: 16px;
+
+      @media screen and (max-width: 768px) {
+        font-size: 14px;
       }
     }
 
