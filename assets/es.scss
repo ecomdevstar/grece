@@ -411,3 +411,31 @@
     }
   }
 }
+
+.image-with-text {
+  .image-with-text__text-item {
+    z-index: 2;
+
+    .image-with-text__text--caption {
+      font-size: 16px;
+      font-weight: 500;
+      color: #9E9E9E;
+      font-style: normal;
+      line-height: normal;
+      margin-bottom: 30px;
+      letter-spacing: 1.6px;
+      font-family: "SF Pro Display", sans-serif;
+    }
+
+    .image-with-text__heading {
+      font-size: 42px;
+      font-weight: 400;
+      color: #393939;
+      font-style: normal;
+      line-height: normal;
+      margin-bottom: 30px;
+      margin-left: var(--margin-left);
+      font-family: "Ivy Journal", sans-serif;
+    }
+  }
+}

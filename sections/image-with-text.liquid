@@ -69,6 +69,7 @@
                 {%- when 'heading' -%}
                   <h2
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
+                    style="--margin-left: {{ block.settings.margin_left }}px;"
                     {{ block.shopify_attributes }}
                   >
                     {{ block.settings.heading }}
@@ -362,6 +363,16 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "range",
+          "id": "margin_left",
+          "min": -500,
+          "max": 500,
+          "step": 10,
+          "unit": "px",
+          "default": 0,
+          "label": "Margin Left"
         }
       ]
     },
