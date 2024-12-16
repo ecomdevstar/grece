@@ -337,7 +337,7 @@
 }
 
 .image-with-text__content > * + * {
-  margin-top: 3rem;
+  margin-top: var(--block-spacing);
 }
 
 .image-with-text__content > .image-with-text__text:empty ~ a {
