@@ -14,7 +14,7 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "logo_with_text_ALgLfq": {
+        "logo_with_text_Agxyxz": {
           "type": "logo_with_text",
           "settings": {
             "image": "shopify://shop_images/GRECE_1.svg",
@@ -24,29 +24,10 @@
             "icon": "shopify://shop_images/marker-pin-01.svg",
             "icon_text": "<a href=\"#\" target=\"_blank\" title=\"#\">Holland Park, Brisbane</a>"
           }
-        },
-        "link_list_mDGWww": {
-          "type": "link_list",
-          "settings": {
-            "heading": "",
-            "menu": "footer"
-          }
-        },
-        "logo_with_text_ad7pmj": {
-          "type": "logo_with_text",
-          "settings": {
-            "image": "shopify://shop_images/AWARD-LOGO-FOR-WEBSITE-lr_1_1.png",
-            "subtitle": "<p>Individual Home Award Winner</p>",
-            "text": "",
-            "content_align": "center",
-            "icon_text": ""
-          }
         }
       },
       "block_order": [
-        "logo_with_text_ALgLfq",
-        "link_list_mDGWww",
-        "logo_with_text_ad7pmj"
+        "logo_with_text_Agxyxz"
       ],
       "settings": {
         "color_scheme": "scheme-bf812f2f-418b-4983-886e-44dd55e204c4",
@@ -59,8 +40,8 @@
         "payment_enable": false,
         "show_policy": false,
         "margin_top": 0,
-        "padding_top": 56,
-        "padding_bottom": 56
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
