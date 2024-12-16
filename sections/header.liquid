@@ -24,9 +24,21 @@
     }
   {%- endif -%}
 
+  #shopify-section-{{ section.id }} {
+    border-bottom: 1px solid #E4E4E4;
+  }
+
   {%- if section.settings.enable_transparent_header and template contains 'index' -%}
-    sticky-header {
+    #shopify-section-{{ section.id }} {
       height: 0;
+      border-bottom: 0;
+    }
+    #shopify-section-{{ section.id }}.transparent-header sticky-header {
+      --gradient-background: transparent;
+      --color-foreground: 255, 255, 255;
+    }
+    #shopify-section-{{ section.id }}.transparent-header sticky-header .header__heading-logo {
+      filter: invert(1) brightness(100%);
     }
   {%- endif -%}
 
@@ -356,10 +368,12 @@
 
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         this.header.classList.add('scrolled-past-header');
+        this.header.classList.remove('transparent-header');
         if (this.preventHide) return;
         requestAnimationFrame(this.hide.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         this.header.classList.add('scrolled-past-header');
+        this.header.classList.remove('transparent-header');
         if (!this.preventReveal) {
           requestAnimationFrame(this.reveal.bind(this));
         } else {
@@ -373,6 +387,7 @@
         }
       } else if (scrollTop <= this.headerBounds.top) {
         this.header.classList.remove('scrolled-past-header');
+        this.header.classList.add('transparent-header');
         requestAnimationFrame(this.reset.bind(this));
       }
 
@@ -454,7 +469,7 @@
 {% schema %}
 {
   "name": "t:sections.header.name",
-  "class": "section-header",
+  "class": "section-header transparent-header",
   "max_blocks": 3,
   "settings": [
     {
