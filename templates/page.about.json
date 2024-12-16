@@ -356,6 +356,37 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "image_with_text_TNRiix": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_8GMgYa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed by Esat Design, a leading creative practice that marries beauty and practicality in every project. Esat’s philosophy centers on creating spaces that not only look stunning but also serve a functional purpose. The outcome is a home that offers striking aesthetics, superb liveability, and a unique character that feels both welcoming and luxurious.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_8GMgYa"
+      ],
+      "settings": {
+        "block_spacing": 30,
+        "image": "shopify://shop_images/b99599_3953501c885c456cb568d5c62519764e_mv2_1.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -367,6 +398,7 @@
     "image_with_text_3deLKe",
     "image_with_text_93PExm",
     "image_with_text_GF3qcy",
-    "image_with_text_UjW3Pq"
+    "image_with_text_UjW3Pq",
+    "image_with_text_TNRiix"
   ]
 }
