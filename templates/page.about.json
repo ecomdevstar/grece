@@ -398,7 +398,7 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-bf812f2f-418b-4983-886e-44dd55e204c4",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 40,
         "padding_bottom": 24
       }
@@ -444,7 +444,7 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-bf812f2f-418b-4983-886e-44dd55e204c4",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 20,
         "padding_bottom": 40
       }
