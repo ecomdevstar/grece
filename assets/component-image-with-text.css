@@ -340,6 +340,12 @@
   margin-top: var(--block-spacing);
 }
 
+@media screen and (max-width: 768px) {
+  .image-with-text__content > * + * {
+    margin-top: calc(var(--block-spacing) * 0.5);
+  } 
+}
+
 .image-with-text__content > .image-with-text__text:empty ~ a {
   margin-top: 2rem;
 }
