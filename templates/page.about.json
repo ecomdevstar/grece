@@ -70,6 +70,7 @@
         "text_EQUiFT"
       ],
       "settings": {
+        "block_spacing": 30,
         "image": "shopify://shop_images/Full_Res-27_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -180,6 +181,7 @@
         "text_TyXaXr"
       ],
       "settings": {
+        "block_spacing": 22,
         "image": "shopify://shop_images/Hero_3.png",
         "height": "adapt",
         "desktop_image_width": "medium",
