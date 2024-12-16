@@ -371,7 +371,7 @@
           "type": "text",
           "settings": {
             "text": "<p><a href=\"#\" target=\"_blank\" title=\"#\">VISIT WEBSITE</a></p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         }
       },
@@ -410,7 +410,7 @@
           "type": "text",
           "settings": {
             "text": "<p><a href=\"#\" target=\"_blank\" title=\"#\">VISIT WEBSITE</a></p>",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         }
       },
