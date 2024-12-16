@@ -155,12 +155,52 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "image_with_text_zff93e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9ecQwK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Custom Shoot Areas",
+            "heading_size": "h2",
+            "margin_left": 0
+          }
+        },
+        "text_TyXaXr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designed specifically for photo and video shoots, Grèce offers adaptable spaces that cater to a range of creative projects, providing a wide range of diverse perfect backdrops every time.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9ecQwK",
+        "text_TyXaXr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Hero_3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_kwG7zE",
     "es_logo_list_FDA7HE",
-    "rich_text_BEJxim"
+    "rich_text_BEJxim",
+    "image_with_text_zff93e"
   ]
 }
