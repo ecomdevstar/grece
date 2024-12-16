@@ -66,6 +66,15 @@
           >
             {%- for block in section.blocks -%}
               {% case block.type %}
+                {%- when 'image' -%}
+                  <div class="image-with-text__logo">
+                    <img
+                      src="{{ block.settings.image | img_url: 'master' }}"
+                      width="{{ block.settings.image.width | times: 0.5 }}"
+                      height="{{ block.settings.image.height | times: 0.5 }}"
+                      alt="{{ block.settings.image.alt }}"
+                    >
+                  </div>
                 {%- when 'heading' -%}
                   <h2
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
@@ -519,6 +528,17 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "t:sections.image-with-text.blocks.button.settings.outline_button.label"
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         }
       ]
     }
