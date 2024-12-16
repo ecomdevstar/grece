@@ -23,14 +23,16 @@
       width: 75%;
     }
   {%- endif -%}
-
-  #shopify-section-{{ section.id }} {
-    border-bottom: 1px solid #E4E4E4;
+  
+  #shopify-section-{{ section.id }} .transparent-header--logo {
+    display: none;
   }
 
   {%- if section.settings.enable_transparent_header and template contains 'index' -%}
     #shopify-section-{{ section.id }} {
       height: 0;
+    }
+    #shopify-section-{{ section.id }} .header-wrapper--border-bottom {
       border-bottom: 0;
     }
     #shopify-section-{{ section.id }}.transparent-header sticky-header {
@@ -38,7 +40,10 @@
       --color-foreground: 255, 255, 255;
     }
     #shopify-section-{{ section.id }}.transparent-header sticky-header .header__heading-logo {
-      filter: invert(1) brightness(100%);
+      display: none;
+    }
+    #shopify-section-{{ section.id }}.transparent-header sticky-header .header__heading-logo.transparent-header--logo {
+      display: block;
     }
   {%- endif -%}
 
@@ -175,6 +180,17 @@
                   sizes: sizes,
                   preload: true
                 }}
+                {%- if section.settings.transparent_header != blank and section.settings.enable_transparent_header -%}
+                  {{ section.settings.transparent_header | image_url: width: 600 | image_tag:
+                    class: 'header__heading-logo transparent-header--logo',
+                    widths: widths,
+                    height: logo_height,
+                    width: settings.logo_width,
+                    alt: logo_alt,
+                    sizes: sizes,
+                    preload: true
+                  }}
+                {%- endif -%}
               </div>
             {%- else -%}
               <span class="h2">{{ shop.name }}</span>
