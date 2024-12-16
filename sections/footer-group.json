@@ -24,10 +24,18 @@
             "icon": "shopify://shop_images/marker-pin-01.svg",
             "icon_text": "<a href=\"#\" target=\"_blank\" title=\"#\">Holland Park, Brisbane</a>"
           }
+        },
+        "link_list_wwebLw": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
-        "logo_with_text_Agxyxz"
+        "logo_with_text_Agxyxz",
+        "link_list_wwebLw"
       ],
       "settings": {
         "color_scheme": "scheme-bf812f2f-418b-4983-886e-44dd55e204c4",
