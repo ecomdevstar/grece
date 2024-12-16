@@ -31,11 +31,22 @@
             "heading": "",
             "menu": "footer"
           }
+        },
+        "logo_with_text_GEz6Kt": {
+          "type": "logo_with_text",
+          "settings": {
+            "image": "shopify://shop_images/AWARD-LOGO-FOR-WEBSITE-lr_1_1.png",
+            "subtitle": "<p>Individual Home Award Winner</p>",
+            "text": "",
+            "content_align": "center",
+            "icon_text": ""
+          }
         }
       },
       "block_order": [
         "logo_with_text_Agxyxz",
-        "link_list_wwebLw"
+        "link_list_wwebLw",
+        "logo_with_text_GEz6Kt"
       ],
       "settings": {
         "color_scheme": "scheme-bf812f2f-418b-4983-886e-44dd55e204c4",
