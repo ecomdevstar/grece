@@ -448,6 +448,37 @@
         "padding_top": 20,
         "padding_bottom": 40
       }
+    },
+    "rich_text_DB6bmE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CNk3Gw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the owners",
+            "heading_size": "h1"
+          }
+        },
+        "text_kw3TWV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CNk3Gw",
+        "text_kw3TWV"
+      ],
+      "settings": {
+        "max_width": 1000,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -461,6 +492,7 @@
     "image_with_text_GF3qcy",
     "image_with_text_UjW3Pq",
     "image_with_text_TNRiix",
-    "image_with_text_mEcJTj"
+    "image_with_text_mEcJTj",
+    "rich_text_DB6bmE"
   ]
 }
