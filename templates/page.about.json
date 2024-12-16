@@ -116,11 +116,43 @@
         "padding_bottom": 40,
         "heading": "As Seen In"
       }
+    },
+    "rich_text_BEJxim": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aihWNf": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Grèce",
+            "heading_size": "h1"
+          }
+        },
+        "text_AibCLh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Step into Grece, a Mediterranean-inspired sanctuary in Brisbane, masterfully designed for photo shoots, commercials, and intimate events. Every element of Grece has been meticulously curated with creativity in mind, from its natural light-drenched interiors to its stunning architectural details. The home is thoughtfully constructed to maximize the visual impact, with lighting that enhances every frame and backdrop, ensuring your project stands out. Whether you're shooting stills, video, or hosting a private event, Grece’s versatility brings beauty and depth to every moment.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aihWNf",
+        "text_AibCLh"
+      ],
+      "settings": {
+        "max_width": 780,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_kwG7zE",
-    "es_logo_list_FDA7HE"
+    "es_logo_list_FDA7HE",
+    "rich_text_BEJxim"
   ]
 }
