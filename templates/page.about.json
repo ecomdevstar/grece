@@ -393,6 +393,45 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_mEcJTj": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_pEd7XD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Built by Batspac, with over 25 years of combined experience across  Brisbane and beyond, Batspac has established itself as a pillar in the  realm of luxury residential and commercial design and construction.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_VJWXQG": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"#\" target=\"_blank\" title=\"#\">VISIT WEBSITE</a></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_pEd7XD",
+        "text_VJWXQG"
+      ],
+      "settings": {
+        "block_spacing": 30,
+        "image": "shopify://shop_images/b99599_3953501c885c456cb568d5c62519764e_mv2_2.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-bf812f2f-418b-4983-886e-44dd55e204c4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
         "padding_bottom": 40
       }
     }
@@ -407,6 +446,7 @@
     "image_with_text_93PExm",
     "image_with_text_GF3qcy",
     "image_with_text_UjW3Pq",
-    "image_with_text_TNRiix"
+    "image_with_text_TNRiix",
+    "image_with_text_mEcJTj"
   ]
 }
