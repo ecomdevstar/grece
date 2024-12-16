@@ -433,8 +433,11 @@
       color: #393939;
       font-style: normal;
       line-height: normal;
-      margin-left: var(--margin-left);
       font-family: "Ivy Journal", sans-serif;
+
+      @media screen and (min-width: 769px) {
+        margin-left: var(--margin-left);
+      }
     }
 
     .image-with-text__text {
@@ -449,6 +452,20 @@
     .image-with-text__button-group {
       gap: 12px;
       display: flex;
+
+      .button {
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: normal;
+        border-radius: 30px;
+        font-family: "SF Pro Display", sans-serif;
+
+        &::after,
+        &::before {
+          border-radius: 30px;
+        }
+      }
     }
   }
 }
