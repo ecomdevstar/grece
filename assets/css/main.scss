@@ -423,6 +423,43 @@ main {
       }
     }
   }
+
+  .image-with-text {
+    padding: 80px 0;
+
+    @media screen and (max-width: 768px) {
+      padding: 56px 0;
+    }
+
+    .container {
+      .row {
+        .image-with-text--image {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .video {
+    .container {
+      .caption {
+        color: #9E9E9E;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      .h2 {
+        margin-bottom: 40px;
+      }
+
+      iframe {
+        border-radius: 16px;
+        width: 100%;
+      }
+    }
+  }
 }
 
 footer {
