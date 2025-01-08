@@ -13,8 +13,30 @@ const makeLogoList = (el) => {
   }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  var logoList = document.querySelector('.logo-list--logos');
+const setImageGallery = (section) => {
+  const wrapper = section.querySelector(".image-gallery--button-wrapper");
+  const button = wrapper?.querySelector("button");
 
-  makeLogoList(logoList);
+  if (button) {
+    button.addEventListener("click", function () {
+      section.querySelectorAll(".image-gallery--item")?.forEach((el) => {
+        el.classList.remove("hide");
+      });
+
+      wrapper.classList.add("hide");
+    });
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  var logoList      = document.querySelector('.logo-list--logos');
+  var imageGallery  = document.querySelector('section.es-image-gallery');
+
+  if (logoList) {
+    makeLogoList(logoList);
+  }
+
+  if (imageGallery) {
+    setImageGallery(imageGallery);
+  }
 });
