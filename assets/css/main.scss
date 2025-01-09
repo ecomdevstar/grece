@@ -75,6 +75,21 @@ html {
   }
 }
 
+.my-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media (min-width: 769px) {
+  .medium-pr-0 {
+    padding-right: 0;
+  }  
+
+  .medium-pl-0 {
+    padding-left: 0;
+  } 
+}
+
 @media (max-width: 768px) {
   .small-pt-0 {
     padding-top: 0;
@@ -527,6 +542,16 @@ main {
             }
           }
 
+          .link {
+            font-family: "SF Pro Display", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.09px;
+            letter-spacing: 0.1em;
+            color: #000;
+            display: block;
+          }
+
           ul {
             list-style: none;
             padding: 0;
@@ -571,6 +596,14 @@ main {
             }
           }
         }
+
+        &.with-background {
+          background-color: #F9F8F4;
+        }
+      }
+
+      & + .container {
+        margin-top: 36px;
       }
     }
   }
