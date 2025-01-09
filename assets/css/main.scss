@@ -80,6 +80,14 @@ html {
   }
 }
 
+.btn {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
+  padding: 12px 24px;
+}
+
 .h1 {
   font-family: "Ivy Journal", sans-serif;
   font-size: 46px;
@@ -436,6 +444,68 @@ main {
         .image-with-text--image {
           img {
             max-width: 100%;
+          }
+        }
+
+        .image-with-text--text {
+          padding-left: 20px;
+
+          & > * + * {
+            margin-top: 24px;
+          }
+
+          .caption {
+            color: #9E9E9E;
+          }
+
+          .h1 {
+            font-size: 42px;
+
+            @media (min-width: 769px) {
+              margin-left: -110px;
+            }
+
+            @media (max-width: 768px) {
+              font-size: 28px;
+            }
+          }
+
+          .description {
+            font-family: "SF Pro Display", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21px;
+            color: #393939CC;
+          }
+
+          .button-group {
+            .btn {
+              border-radius: 30px;
+
+              & + .btn {
+                margin-left: 12px;
+              }
+            }
+          }
+
+          ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 60px;
+
+            li {
+              span {
+                font-family: "Ivy Journal", serif;
+                font-size: 26px;
+                font-weight: 400;
+                line-height: 32.92px;
+                text-decoration: underline;
+              }
+
+              & + li {
+                margin-top: 16px;
+              }
+            }
           }
         }
       }
