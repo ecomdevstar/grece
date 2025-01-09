@@ -75,6 +75,14 @@ html {
   }
 }
 
+.section-padding-bottom {
+  padding-bottom: 80px;
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 56px;
+  }
+}
+
 .my-0 {
   margin-left: 0;
   margin-right: 0;
@@ -350,6 +358,10 @@ main {
       .h2 {
         max-width: 990px;
         margin: 0 auto 24px;
+
+        @media (max-width: 768px) {
+          margin-bottom: 16px;
+        }
       }
 
       .link {
@@ -366,6 +378,19 @@ main {
         }
       }
 
+      .media {
+        margin-top: 40px;
+
+        @media (max-width: 768px) {
+          margin-top: 24px;
+        }
+
+        img {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+      }
     }
   }
 
@@ -599,6 +624,16 @@ main {
 
         &.with-background {
           background-color: #F9F8F4;
+
+          @media (max-width: 768px) {
+            .col-12 {
+              padding: 0;
+              
+              .image-with-text--text {
+                padding: 28px 14px;
+              }
+            }
+          }
         }
       }
 
