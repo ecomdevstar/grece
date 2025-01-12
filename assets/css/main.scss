@@ -772,6 +772,10 @@ main {
         padding: 60px 40px;
         background-color: #F9F8F4;
 
+        @media screen and (max-width: 768px) {
+          padding: 40px 10px;
+        }
+
         .form-check-input:checked {
           background-color: #000;
           border-color: #000;
@@ -864,6 +868,10 @@ main {
       .info-wrapper {
         padding-left: 25px;
 
+        @media screen and (max-width: 768px) {
+          padding: 40px 10px;
+        }
+
         .info-item {
           .h3 {
             margin-bottom: 16px;
@@ -883,6 +891,10 @@ main {
 
           .map-wrapper {
             margin-bottom: 16px;
+
+            iframe {
+              max-width: 100%;
+            }
           }
         }
 
