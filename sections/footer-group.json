@@ -17,11 +17,11 @@
         "logo_with_text_Agxyxz": {
           "type": "logo_with_text",
           "settings": {
-            "image": "shopify://shop_images/GRECE_1.svg",
+            "image": "shopify://shop_images/logo-black.svg",
             "subtitle": "",
             "text": "<p>Mediterranean-inspired photoshoot location </p>",
             "content_align": "left",
-            "icon": "shopify://shop_images/marker-pin-01.svg",
+            "icon": "shopify://shop_images/Icon_2.svg",
             "icon_text": "<a href=\"#\" target=\"_blank\" title=\"#\">Holland Park, Brisbane</a>"
           }
         },
@@ -35,7 +35,7 @@
         "logo_with_text_GEz6Kt": {
           "type": "logo_with_text",
           "settings": {
-            "image": "shopify://shop_images/AWARD-LOGO-FOR-WEBSITE-lr_1_1.png",
+            "image": "shopify://shop_images/AWARD-LOGO-FOR-WEBSITE-lr_1.png",
             "subtitle": "<p>Individual Home Award Winner</p>",
             "text": "",
             "content_align": "center",
