@@ -48,7 +48,7 @@
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": false,
         "enable_transparent_header": true,
-        "transparent_header": "shopify://shop_images/GRECE.svg",
+        "transparent_header": "shopify://shop_images/logo-white.svg",
         "enable_language_selector": false,
         "enable_customer_avatar": false,
         "mobile_logo_position": "center",

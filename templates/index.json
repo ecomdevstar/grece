@@ -32,7 +32,7 @@
         "heading"
       ],
       "settings": {
-        "image": "shopify://shop_images/Full_Res-28_1.jpg",
+        "image": "shopify://shop_images/hero-banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "full_height",
         "desktop_content_position": "middle-left",
@@ -83,27 +83,19 @@
       "blocks": {
         "image_r9Y6TG": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TLP_1.png"
-          }
+          "settings": {}
         },
         "image_RyR4aV": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/realestate-com-au-logo-vector-2023_1.png"
-          }
+          "settings": {}
         },
         "image_Q4NJKT": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/media-courier-mail-logo_1.png"
-          }
+          "settings": {}
         },
         "image_YtUCTY": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/the-australian-newspaper-logo_1_2.png"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -124,70 +116,60 @@
         "image_DCCdxt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Full_Res-5_1.jpg",
             "layout": "landscape"
           }
         },
         "image_bU73id": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Full_Res-10_1.jpg",
             "layout": "portrait"
           }
         },
         "image_endxwt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Full_Res-24_1.jpg",
             "layout": "portrait"
           }
         },
         "image_gTV3Ah": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Hero_1.jpg",
             "layout": "landscape"
           }
         },
         "image_CAXfWh": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Full_Res-31_1.jpg",
             "layout": "landscape"
           }
         },
         "image_7QA8YH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Courtyard_1.jpg",
             "layout": "portrait"
           }
         },
         "image_VcKbKi": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Web_and_Insta_Res-7.jpg",
             "layout": "portrait"
           }
         },
         "image_iygXWz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Web_and_Insta_Res-25.jpg",
             "layout": "landscape"
           }
         },
         "image_QaMcPa": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Web_and_Insta_Res-16.jpg",
             "layout": "landscape"
           }
         },
         "image_jKd6EP": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Web_and_Insta_Res-27.jpg",
             "layout": "portrait"
           }
         }
