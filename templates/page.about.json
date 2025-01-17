@@ -408,7 +408,9 @@
       "blocks": {
         "image_rXBYmV": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/66541f2722eae2de18dc8c2b_Group_23_1.png"
+          }
         },
         "text_pEd7XD": {
           "type": "text",
@@ -432,6 +434,7 @@
       ],
       "settings": {
         "block_spacing": 30,
+        "image": "shopify://shop_images/b99599_3953501c885c456cb568d5c62519764e_mv2_2.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -483,6 +486,7 @@
         "slide_qN6pVT": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/269f55dab62013b9711b10cd6127e80c_1.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
