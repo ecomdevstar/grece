@@ -71,7 +71,7 @@
       ],
       "settings": {
         "block_spacing": 30,
-        "image": "shopify://shop_images/Full_Res-27_1.png",
+        "image": "shopify://shop_images/Web_and_Insta_Res-27.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -222,7 +222,6 @@
       ],
       "settings": {
         "block_spacing": 22,
-        "image": "shopify://shop_images/Hero_4.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -262,7 +261,6 @@
       ],
       "settings": {
         "block_spacing": 22,
-        "image": "shopify://shop_images/Hero_8.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -302,7 +300,6 @@
       ],
       "settings": {
         "block_spacing": 22,
-        "image": "shopify://shop_images/Hero_6.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -342,7 +339,6 @@
       ],
       "settings": {
         "block_spacing": 22,
-        "image": "shopify://shop_images/Hero_7_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -362,9 +358,7 @@
       "blocks": {
         "image_jaQLF3": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/ESAT_Design_Brandmark_ONYX_1.png"
-          }
+          "settings": {}
         },
         "text_8GMgYa": {
           "type": "text",
@@ -388,7 +382,6 @@
       ],
       "settings": {
         "block_spacing": 30,
-        "image": "shopify://shop_images/b99599_3953501c885c456cb568d5c62519764e_mv2_1.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -408,9 +401,7 @@
       "blocks": {
         "image_rXBYmV": {
           "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/66541f2722eae2de18dc8c2b_Group_23_1.png"
-          }
+          "settings": {}
         },
         "text_pEd7XD": {
           "type": "text",
@@ -434,7 +425,6 @@
       ],
       "settings": {
         "block_spacing": 30,
-        "image": "shopify://shop_images/b99599_3953501c885c456cb568d5c62519764e_mv2_2.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -486,7 +476,6 @@
         "slide_qN6pVT": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/269f55dab62013b9711b10cd6127e80c_1.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
