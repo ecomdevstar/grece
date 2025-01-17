@@ -515,15 +515,6 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "custom_liquid_iWPcAJ": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 80
-      }
     }
   },
   "order": [
@@ -539,7 +530,6 @@
     "image_with_text_TNRiix",
     "image_with_text_mEcJTj",
     "rich_text_DB6bmE",
-    "slideshow_AyzpmF",
-    "custom_liquid_iWPcAJ"
+    "slideshow_AyzpmF"
   ]
 }
