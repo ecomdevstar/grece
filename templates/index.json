@@ -225,6 +225,15 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "custom_liquid_LKrhhw": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class='sk-instagram-feed' data-embed-id='25507893'></div>\n<script src='https://widgets.sociablekit.com/instagram-feed/widget.js' defer></script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -232,6 +241,7 @@
     "rich_text_mh8z4e",
     "es_logo_list_KjFxUR",
     "es_image_gallery_tmwHwM",
-    "video_xR3neW"
+    "video_xR3neW",
+    "custom_liquid_LKrhhw"
   ]
 }
