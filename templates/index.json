@@ -83,19 +83,27 @@
       "blocks": {
         "image_r9Y6TG": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/TLP_1.png"
+          }
         },
         "image_RyR4aV": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/media-courier-mail-logo_1.png"
+          }
         },
         "image_Q4NJKT": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/media-courier-mail-logo_1.png"
+          }
         },
         "image_YtUCTY": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/the-australian-newspaper-logo_1_2.png"
+          }
         }
       },
       "block_order": [
@@ -116,60 +124,70 @@
         "image_DCCdxt": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-32.jpg",
             "layout": "landscape"
           }
         },
         "image_bU73id": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-29.jpg",
             "layout": "portrait"
           }
         },
         "image_endxwt": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Full_Res-24_1.jpg",
             "layout": "portrait"
           }
         },
         "image_gTV3Ah": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-8.jpg",
             "layout": "landscape"
           }
         },
         "image_CAXfWh": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-4.jpg",
             "layout": "landscape"
           }
         },
         "image_7QA8YH": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-7.jpg",
             "layout": "portrait"
           }
         },
         "image_VcKbKi": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-11.jpg",
             "layout": "portrait"
           }
         },
         "image_iygXWz": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-8.jpg",
             "layout": "landscape"
           }
         },
         "image_QaMcPa": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-28.jpg",
             "layout": "landscape"
           }
         },
         "image_jKd6EP": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-27.jpg",
             "layout": "portrait"
           }
         }
