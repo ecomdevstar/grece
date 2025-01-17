@@ -199,6 +199,14 @@
       .swiper-wrapper {
         align-items: center;
 
+        .logo-list--logo {
+          .image {
+            img {
+              filter: grayscale(1);
+            }
+          }
+        }
+
         @media screen and (min-width: 769px) {
           justify-content: center;
           gap: 72px;
