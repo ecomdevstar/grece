@@ -145,7 +145,6 @@
         font-size: 18px;
         font-weight: 400;
         font-style: normal;
-        text-align: center;
         line-height: normal;
         color: rgba(57, 57, 57, 0.80);
         font-family: "SF Pro Display", sans-serif;
@@ -595,5 +594,129 @@
         }
       }
     } 
+  }
+}
+
+.media-slider {
+  .container-fluid {
+    padding: 0;
+
+    .image {
+      position: relative;
+      padding-top: 130%;
+      
+      img {
+        width: 100%;
+        max-width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+    }
+  }
+}
+
+.es-contact-form {
+  padding: var(--padding-top) 0 var(--padding-bottom);
+  
+  .page-width {
+    .row {
+      display: flex;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+      }
+
+      .hulk-form--builder {
+        flex: 1;
+        width: 100%;
+
+        iframe {
+          width: 100%;
+        }
+      }
+
+      .description-container {
+        flex: 1;
+
+        @media (min-width: 769px) {
+          padding-left: 25px;  
+        }
+
+        .block-item {
+          .block-item--heading {
+            font-family: "Ivy Journal", sans-serif;
+            font-size: 26px;
+            font-weight: 400;
+            line-height: 120%;
+            color: rgba(57, 57, 57, 1);
+            margin-bottom: 15px;
+
+            @media (max-width: 768px) {
+              font-size: 18px;
+            }
+          }
+
+          .block-item--text {
+            font-family: "SF Pro Display", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 120%;
+            color: rgba(57, 57, 57, 0.8);
+
+            a {
+              color: rgba(57, 57, 57, 0.8);
+            }
+
+            ul {
+              padding-left: 20px;
+              margin-bottom: 15px;
+            }
+
+            @media (max-width: 768px) {
+              font-size: 14px;
+            }
+
+            &.block-item--icon {
+              display: flex;
+              gap: 8px;
+              align-items: flex-start;
+
+              img {
+                margin: 0;
+              }
+            }
+          }
+
+          .block-item--map {
+            margin-bottom: 15px;
+
+            iframe {
+              display: block;
+              max-width: 100%;
+            }
+          }
+          
+          & + .block-item {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
   }
 }

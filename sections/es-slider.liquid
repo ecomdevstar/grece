@@ -1,0 +1,125 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} {
+    --padding-top: {{ section.settings.padding_top }}px;
+    --padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  #shopify-section-{{ section.id }} .swiper-button-next,
+    #shopify-section-{{ section.id }} .swiper-button-prev {
+      --swiper-navigation-sides-offset: 150px;
+      --swiper-navigation-size: 20px; 
+      --swiper-navigation-color: #000;
+    }
+
+  @media (max-width: 768px) {
+    #shopify-section-{{ section.id }} {
+      --padding-top: {{ section.settings.padding_top | times: 0.5 }}px;
+      --padding-bottom: {{ section.settings.padding_bottom | times: 0.5 }}px;
+    }
+
+    #shopify-section-{{ section.id }} .swiper-button-next,
+    #shopify-section-{{ section.id }} .swiper-button-prev {
+      --swiper-navigation-sides-offset: 20px;
+      --swiper-navigation-size: 16px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="container-fluid">
+  <div class="media-swiper-slider swiper">
+    <div class="swiper-wrapper">
+      {%- for block in section.blocks -%}
+        <div class="swiper-slide">
+          <div class="image">
+            <img 
+              src="{{ block.settings.image | img_url: 'master' }}" 
+              width="{{ block.settings.image.width | times: 0.5 }}"
+              height="{{ block.settings.image.height | times: 0.5 }}"
+              alt="{{ block.settings.image.alt | default: block.settings.image.title }}"
+            >
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    (() => {
+      const sw = new Swiper("#shopify-section-{{ section.id }} .swiper", {
+        slidesPerView: 2,
+        spaceBetween: 2,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 2,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 2,
+          },
+          1024: {
+            slidesPerView: 4.3,
+            spaceBetween: 2,
+          },
+        },
+      });
+    })();
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Media Slider",
+  "tag": "section",
+  "class": "section media-slider",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "@ Media Slider"
+    }
+  ]
+}
+{% endschema %}

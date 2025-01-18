@@ -28,6 +28,66 @@
         "padding_bottom": 36
       }
     },
+    "es_slider_LcEyCQ": {
+      "type": "es-slider",
+      "blocks": {
+        "image_gy8XAT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-1.jpg"
+          }
+        },
+        "image_WgrHjm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-11_8d3a5d31-16d1-43a0-ba97-eea62ece5c3d.jpg"
+          }
+        },
+        "image_BmDrTh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-27_acc2865b-cb7c-4474-b4a3-81ad6e7b7326.jpg"
+          }
+        },
+        "image_9WTUkf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-7_18ddff4a-6d83-4925-9235-8ddc33599ff7.jpg"
+          }
+        },
+        "image_HE4iqb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-17.jpg"
+          }
+        },
+        "image_xmKNzH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-21.jpg"
+          }
+        },
+        "image_9MQUKf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Web_and_Insta_Res-10.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_gy8XAT",
+        "image_WgrHjm",
+        "image_BmDrTh",
+        "image_9WTUkf",
+        "image_HE4iqb",
+        "image_xmKNzH",
+        "image_9MQUKf"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_Ga8kNz": {
       "type": "rich-text",
       "blocks": {
@@ -58,20 +118,144 @@
         "heading_J7PFx8",
         "text_GQQn4A"
       ],
+      "custom_css": [
+        "h2 {margin: 0;}"
+      ],
       "settings": {
         "max_width": 780,
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 40
+      }
+    },
+    "es_contact_form_mi4A7h": {
+      "type": "es-contact-form",
+      "blocks": {
+        "hulk_form_builder_form_block_UhWmjN": {
+          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "1_edCb5hB_wshQm-jVde9g",
+            "form_settings": true,
+            "font_color": "#344054",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": -1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#344054",
+            "input_size": 16,
+            "border_color": "#121212",
+            "border_radius": 0,
+            "border": 0,
+            "fill_color": "#f9f8f4",
+            "padding": 40,
+            "form_width": 600,
+            "btn_text": "Submit enquiry",
+            "sub_btn_txt_color": "#ffffff",
+            "sub_btn_bg_color": "#393939",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 0,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Helvetica"
+          }
+        },
+        "text_A3mm9G": {
+          "type": "text",
+          "settings": {
+            "heading": "Important information",
+            "text": "<ul><li>Starting from $535/hr</li><li>Minimum 4 hour bookings</li><li>Bedroom use prohibited</li><li>Pets not allowed</li><li>Child-friendly</li><li>No party policy</li></ul><p>Read our <a href=\"#\" target=\"_blank\" title=\"#\"><strong>cancellation policy</strong></a> for all information.</p>"
+          }
+        },
+        "text_rJr66d": {
+          "type": "text",
+          "settings": {
+            "heading": "Opening hours",
+            "image": "shopify://shop_images/Icon_3.svg",
+            "text": "<p>Monday – Friday</p><p>8.00am – 6.00pm</p>"
+          }
+        },
+        "text_3x9qaR": {
+          "type": "text",
+          "settings": {
+            "heading": "Contact us",
+            "text": "<p><a href=\"mailto:hello@grece.com.au\" title=\"mailto:hello@grece.com.au\"><strong>hello@grece.com.au</strong></a> for all non-booking enquiries.</p>"
+          }
+        },
+        "location_Qakdmr": {
+          "type": "location",
+          "settings": {
+            "heading": "Location",
+            "custom_liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14151.35543842338!2d153.0554949679417!3d-27.536464930684197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915ad502e3482d%3A0x502a35af3de9170!2sMount%20Gravatt%20QLD%2C%20Australia!5e0!3m2!1sen!2ssg!4v1736643697765!5m2!1sen!2ssg\" width=\"500\" height=\"218\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+            "text": "<p>Exact location provided after confirmed booking.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "hulk_form_builder_form_block_UhWmjN",
+        "text_A3mm9G",
+        "text_rJr66d",
+        "text_3x9qaR",
+        "location_Qakdmr"
+      ],
+      "custom_css": [],
+      "settings": {
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "heading": "As Seen In"
+      }
+    },
+    "es_logo_list_JVQiB3": {
+      "type": "es-logo-list",
+      "blocks": {
+        "image_XMA9k7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TLP_1.png"
+          }
+        },
+        "image_Epaw6b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/realestate-com-au-logo-vector-2023_1.png"
+          }
+        },
+        "image_VEQDwU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/media-courier-mail-logo_1.png"
+          }
+        },
+        "image_a6zGVK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/the-australian-newspaper-logo_1_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_XMA9k7",
+        "image_Epaw6b",
+        "image_VEQDwU",
+        "image_a6zGVK"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "heading": "As Seen In"
       }
     }
   },
   "order": [
     "main",
     "form",
-    "rich_text_Ga8kNz"
+    "es_slider_LcEyCQ",
+    "rich_text_Ga8kNz",
+    "es_contact_form_mi4A7h",
+    "es_logo_list_JVQiB3"
   ]
 }
