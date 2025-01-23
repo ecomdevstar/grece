@@ -632,11 +632,10 @@
 
 .es-contact-form {
   padding: var(--padding-top) 0 var(--padding-bottom);
-  
+
   .page-width {
     .row {
       display: flex;
-      align-items: center;
 
       @media (max-width: 768px) {
         flex-direction: column;
