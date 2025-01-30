@@ -26,12 +26,14 @@
       {%- for block in section.blocks -%}
         <div class="logo-list--logo swiper-slide">
           <div class="image">
-            <img 
-              src="{{ block.settings.image | img_url: 'master' }}" 
-              width="{{ block.settings.image.width | times: 0.5 }}"
-              height="{{ block.settings.image.height | times: 0.5 }}"
-              alt="{{ block.settings.image.alt | default: block.settings.image.title }}"
-            >
+            <a href="{{ block.settings.link }}">
+              <img 
+                src="{{ block.settings.image | img_url: 'master' }}" 
+                width="{{ block.settings.image.width | times: 0.5 }}"
+                height="{{ block.settings.image.height | times: 0.5 }}"
+                alt="{{ block.settings.image.alt | default: block.settings.image.title }}"
+              >
+            </a>
           </div>
         </div>
       {%- endfor -%}
@@ -105,6 +107,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     }
