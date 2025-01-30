@@ -26,14 +26,18 @@
       {%- for block in section.blocks -%}
         <div class="logo-list--logo swiper-slide">
           <div class="image">
-            <a href="{{ block.settings.link }}">
+            {%- if block.settings.link != blank -%}
+              <a href="{{ block.settings.link }}">
+            {%- endif -%}
               <img 
                 src="{{ block.settings.image | img_url: 'master' }}" 
                 width="{{ block.settings.image.width | times: 0.5 }}"
                 height="{{ block.settings.image.height | times: 0.5 }}"
                 alt="{{ block.settings.image.alt | default: block.settings.image.title }}"
               >
-            </a>
+            {%- if block.settings.link -%}
+              </a>
+            {%- endif -%}
           </div>
         </div>
       {%- endfor -%}
