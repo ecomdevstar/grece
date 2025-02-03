@@ -164,13 +164,15 @@
       {%- endfor -%}
     </div>
   </div>
-  {%- if section.settings.to_section != blank -%}
-    <div class="banner__clicker">
-      <div class="banner__clicker-wrapper">
+  <div class="banner__clicker">
+    <div class="banner__clicker-wrapper">
+      {%- if section.settings.to_section != blank -%}
         <a href="#{{ section.settings.to_section }}" class="banner__clicker-link">{{ section.settings.to_section_text }}</a>
-      </div>
+      {%- else -%}
+        <span class="banner__clicker-link">{{ section.settings.to_section_text }}</span>
+      {%- endif -%}
     </div>
-  {%- endif -%}
+  </div>
 </div>
 
 {% schema %}
