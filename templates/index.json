@@ -84,25 +84,29 @@
         "image_r9Y6TG": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TLP_1.png"
+            "image": "shopify://shop_images/TLP_1.png",
+            "link": ""
           }
         },
         "image_RyR4aV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/media-courier-mail-logo_1.png"
+            "image": "shopify://shop_images/realestate-com-au-logo-vector-2023_1.png",
+            "link": ""
           }
         },
         "image_Q4NJKT": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/media-courier-mail-logo_1.png"
+            "image": "shopify://shop_images/media-courier-mail-logo_1.png",
+            "link": ""
           }
         },
         "image_YtUCTY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/the-australian-newspaper-logo_1_2.png"
+            "image": "shopify://shop_images/the-australian-newspaper-logo_1_2.png",
+            "link": ""
           }
         }
       },
